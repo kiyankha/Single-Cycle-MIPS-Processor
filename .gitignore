@@ -1,0 +1,25 @@
+# ModelSim build output
+**/work/
+transcript
+*.wlf
+*.wlf.bak
+*.vstf
+*.mti
+*.mpf
+
+# ModelSim generates this locally (compile.do runs vmap)
+modelsim.ini
+
+
+# OS junk
+Thumbs.db
+desktop.ini
+.DS_Store
+*~
+.Trash-*
+
+# Text Editor / IDE
+.vscode/
+*.swp
+*.bak
+*.tmp
