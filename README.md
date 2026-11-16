@@ -69,9 +69,3 @@ the sort or `run -all` to finish and see the PASS messages.
 - `tb_isort`: `PASS1, All Sorted!` and `Pass2, Output Matches the expected Numbers!`,
   finished at 258,351 ns (limit 258,400 ns).
 
-## Notes
-
-- Branch instructions (`beq`, `bne`) no longer assert `RegWrite`, so they cannot write
-  an undefined value into the register file after synthesis.
-- Local handout/backup archives (`*.zip`) and ModelSim output (`work/`, `transcript`,
-  `modelsim.ini`, `*.wlf`) are ignored by git and stay on the local machine only.
